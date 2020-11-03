@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "footers",
+  "info": {
+    "name": "footer",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "copyrightText": {
+      "type": "string"
+    },
+    "copyrightTitle": {
+      "type": "string"
+    },
+    "links": {
+      "collection": "link"
+    }
+  }
+}

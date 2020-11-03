@@ -1,0 +1,39 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "name": "Contact"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "contactHeading": {
+      "type": "string",
+      "required": true,
+      "default": "Contact section heading"
+    },
+    "ContactText1": {
+      "type": "string"
+    },
+    "ContactText2": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "message": {
+      "type": "string"
+    },
+    "btnText": {
+      "type": "string",
+      "default": "Button text",
+      "required": true
+    }
+  }
+}

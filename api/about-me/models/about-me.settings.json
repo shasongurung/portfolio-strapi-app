@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "about_mes",
+  "info": {
+    "name": "About me",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "headingTitle": {
+      "type": "string",
+      "required": true,
+      "default": "heading title"
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "links": {
+      "collection": "link"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "hero_homes",
+  "info": {
+    "name": "Hero Home"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "mainHero": {
+      "type": "string",
+      "required": true
+    },
+    "secondHero": {
+      "type": "string"
+    },
+    "thirdHeroMain": {
+      "type": "string"
+    },
+    "thirdHeroFocus": {
+      "type": "string"
+    }
+  }
+}

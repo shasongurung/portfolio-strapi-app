@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "links",
+  "info": {
+    "name": "link",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "linkTitle": {
+      "type": "string"
+    },
+    "linkAddress": {
+      "type": "string",
+      "required": false
+    },
+    "classType": {
+      "type": "string"
+    },
+    "linkAttachment": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "files",
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "linkDescription": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "singleType",
+  "collectionName": "navigations",
+  "info": {
+    "name": "Navigation",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "links": {
+      "collection": "link"
+    },
+    "logoImg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    },
+    "logoName": {
+      "type": "string"
+    }
+  }
+}
