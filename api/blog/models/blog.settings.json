@@ -30,9 +30,9 @@
       "plugin": "upload",
       "required": true
     },
-    "blogTags": {
+    "tags": {
       "collection": "tag",
-      "via": "tagName"
+      "via": "blog"
     }
   }
 }

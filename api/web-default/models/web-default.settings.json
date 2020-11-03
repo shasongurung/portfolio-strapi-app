@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "web_defaults",
+  "info": {
+    "name": "Web default"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "blogContinueCaption": {
+      "type": "string",
+      "required": true
+    }
+  }
+}
