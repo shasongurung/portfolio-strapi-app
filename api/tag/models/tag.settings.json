@@ -18,9 +18,10 @@
       "type": "string",
       "required": true
     },
-    "blog": {
+    "blogs": {
+      "collection": "blog",
       "via": "tags",
-      "model": "blog"
+      "dominant": true
     }
   }
 }
