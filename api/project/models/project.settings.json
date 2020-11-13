@@ -1,0 +1,47 @@
+{
+  "kind": "collectionType",
+  "collectionName": "projects",
+  "info": {
+    "name": "Project",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "prjTitle": {
+      "type": "string",
+      "required": true,
+      "default": "Project name"
+    },
+    "prjDesc": {
+      "type": "richtext",
+      "default": "Write down project description here . . . . . . ."
+    },
+    "tags": {
+      "collection": "tag",
+      "via": "projects",
+      "dominant": true
+    },
+    "prjCoverImg": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": true
+    },
+    "prjImg": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images"
+      ],
+      "plugin": "upload",
+      "required": false
+    }
+  }
+}

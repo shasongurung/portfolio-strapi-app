@@ -22,6 +22,10 @@
       "collection": "blog",
       "via": "tags",
       "dominant": true
+    },
+    "projects": {
+      "via": "tags",
+      "collection": "project"
     }
   }
 }
