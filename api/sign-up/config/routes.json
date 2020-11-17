@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/sign-up",
+      "handler": "sign-up.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/sign-up",
+      "handler": "sign-up.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/sign-up",
+      "handler": "sign-up.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "sign_ups",
+  "info": {
+    "name": "SignUp"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "signUpHeading": {
+      "type": "string",
+      "required": true
+    },
+    "signUpHeading1": {
+      "type": "string"
+    },
+    "btnTxt": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

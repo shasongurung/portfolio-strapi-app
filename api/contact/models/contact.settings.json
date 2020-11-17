@@ -2,7 +2,8 @@
   "kind": "singleType",
   "collectionName": "contacts",
   "info": {
-    "name": "Contact"
+    "name": "Contact",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -19,15 +20,6 @@
       "type": "string"
     },
     "ContactText2": {
-      "type": "string"
-    },
-    "name": {
-      "type": "string"
-    },
-    "email": {
-      "type": "string"
-    },
-    "message": {
       "type": "string"
     },
     "btnText": {

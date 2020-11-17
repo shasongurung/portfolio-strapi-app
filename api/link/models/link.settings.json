@@ -12,7 +12,8 @@
   },
   "attributes": {
     "linkTitle": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
     "linkAddress": {
       "type": "string",
@@ -33,7 +34,9 @@
       "required": false
     },
     "linkDescription": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "default": "Please write link description here"
     }
   }
 }
