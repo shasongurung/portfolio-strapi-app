@@ -1,6 +1,15 @@
 {
   "routes": [
     {
+      "method": "POST",
+      "path": "/contact/sendMsg",
+      "handler": "contact.msg",
+      "config": {
+        "policies": []
+      }
+
+    },
+    {
       "method": "GET",
       "path": "/contact",
       "handler": "contact.find",
