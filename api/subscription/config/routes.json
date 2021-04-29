@@ -1,6 +1,14 @@
 {
   "routes": [
     {
+      "method": "POST",
+      "path": "/subscriptions/confirmation",
+      "handler": "subscription.confirmation",
+      "config": {
+        "policies": []
+      }
+    },
+    {
       "method": "GET",
       "path": "/subscriptions",
       "handler": "subscription.find",
